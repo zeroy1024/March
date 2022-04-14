@@ -11,6 +11,13 @@
 - 磁盘 IO 监控
 - 网络负载
 
+## 使用方法
+
+```sh
+yarn run build  # 构建前端
+CGO_ENABLED=0 go build -a -ldflags '-extldflags "-static"' .  # 构建后端
+```
+
 ## 页面截图
 
 ![截图](./screenshots.jpeg)
