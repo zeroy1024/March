@@ -1,3 +1,4 @@
 .vscode/
-march-api/web/
-march-api/config.json/
+march-api/MarchAPI
+march-api/web
+march-api/config.json
